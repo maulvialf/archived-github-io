@@ -3,9 +3,6 @@ title: GUI Component - Progress Indicators (Loaders)
 layout: post
 ---
 
-# GUI Component - Progress Indicators (Loaders)
-
-
 ## Definisi
 
 
@@ -22,7 +19,7 @@ Saat menampilkan gabungan dari banyak proses, progress juga dapat ditampilkan se
 
 ## Anatomi
 
-![](/home/a/cj/IMK-master/7.png)
+![](7.png)
  
 
 
