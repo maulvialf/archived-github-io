@@ -19,7 +19,7 @@ Saat menampilkan gabungan dari banyak proses, progress juga dapat ditampilkan se
 
 ## Anatomi
 
-![](7.png)
+![](/assets/7.png)
  
 
 
@@ -75,19 +75,19 @@ Penempatan dari progress indikator dapat ditentukan dari jangkauan dari proses t
 
 1. JIka indikator berada di tengah layar mengartikan program melakukan loading.
 
-![](/home/a/cj/IMK-master/14.png) 
+![](/assets/14.png) 
 
 2. JIka indikator berada di dalam kontainer, seperti pada card, mengartikan proses pada komponen tersebut
 
 3. Indikator dapat diletakkan dalam expanding edge pada expanding items, agar user dapat mengetahui dimana konten tambahan saat konten ter ekspand
-![](/home/a/cj/IMK-master/15.png)
+![](/assets/15.png)
 
 
 
 ## Spesifikasi
 
 
-![](/home/a/cj/IMK-master/12.png)
+![](/assets/12.png)
 Sebagai contoh pada material design milik android, progress indicator memiliki spesifikasi umum sebagai berikut.
 
 
@@ -108,8 +108,8 @@ Secara user interface dan user experience, payfazz terlihat nyaman digunakan wal
 Berikut adalah contoh implementasi dari progress bar di payfazz.
 
 
-![](/home/a/cj/IMK-master/1.png) 
-![](/home/a/cj/IMK-master/2.png) 
+![](/assets/1.png) 
+![](/assets/2.png) 
 
 Implementasi ini memiliki banyak sisi baik ataupun sisi buruk. Sisi baiknya adalah tampilan dan prosesnya yang simple mengikuti dengan design utama dari PAYFAZZ. Pengguna pun merasa proses yang ditunggu benar benar akan load. Sisi buruknya adalah terdapat fake load, Dari aplikasi tersebut karena hasil load aplikasi tidak sesuai dengan indikator dan track yang ditampilkan.
 
