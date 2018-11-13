@@ -7,14 +7,17 @@ layout: post
 
 
 Loader (pemuat) atau progress adalah component controll yang mengekspresikan waktu tunggu yang tidak ditentukan atau sejauh mana proses itu berjalan. 
+{: .text-justify}
 
 
 ## Penggunaan
 
 Progress indikator menginformasikan pengguna mengenai status dari proses yang sedang berjalan. Seperti memuat suatu tampilan, melakukan submisi, ataupun mengenai download atau saving sesuatu.
+{: .text-justify}
 
 
 Saat menampilkan gabungan dari banyak proses, progress juga dapat ditampilkan secara grup dimana progress yang ditampilkan di layar merupakan rata rata dari seluruh proses
+{: .text-justify}
 
 
 ## Anatomi
@@ -41,6 +44,7 @@ Indikator akan menganimasikan proses berjalannya progress. Indikator akan runnin
 
 
 Setiap jenis progress indicator memiliki behavior yang berbeda. Namun secara umunnya progress indikator, memiliki behavior running memenuhi suatu track (untuk definite) atau mengitari sesuatu. Progress indicator biasanya akan berada diatas suatu surface. 
+{: .text-justify}
 
 
 
@@ -54,17 +58,21 @@ Progress indicator dapat dibagi menjadi dua jenis berdasarkan bentuk.
 
 
 Bentuk progress circular berbentuk dimana proses akan digambarkan dengan bentuk melingkar. Progress circular berbentuk lingkaran. Track akan berbentuk lingkaran dengan warna transparan / tipis, dengan indicator yang akan berputar mengisi track tersebut. Circular progress dibagi menjadi dua kembali yaitu, definite circular progress dan undefinit circular progress. 
+{: .text-justify}
 
 
 Determinate Circular Progress digambarkan dengan indicator mengisi invisible track dengan pada circular track, dari 0 hingga 360 derajat
+{: .text-justify}
 
 Indeterminate Circular Progress digambarkan dengan indikator yang membesar dan mengecil memutari track transparan.
+{: .text-justify}
 
 
 2, Linear 
 
 
 Linear progress digambarkan dengan indikator yang memenuhi track horizontal yang biasanya berada di sudut layar (biasanya diatas). Pada awalnya linear progress hanya dapat menggambarkan determinate operation dimana progress digambarkan berbentuk loading bar, dengan indikator memenuhi track berdasarkan progress yang telah berjalan. Namun semakin berkembangnya ux research, linear progress dapat menggambarkan proses indeterminate. Operasi indeterminate ditunjukan dengan garis indikator akan membesar dan mengecil sambil berjalan pada track hingga operasi tersebut berhasil di eksekusi.
+{: .text-justify}
 
 
 
@@ -89,6 +97,7 @@ Penempatan dari progress indikator dapat ditentukan dari jangkauan dari proses t
 
 ![](/assets/12.png)
 Sebagai contoh pada material design milik android, progress indicator memiliki spesifikasi umum sebagai berikut.
+{: .text-justify}
 
 
 1. Warna dari indikator adalah biru keunguan dengan hexcode #6200ef dengan warna indicator #6200ee99.
@@ -97,13 +106,16 @@ Sebagai contoh pada material design milik android, progress indicator memiliki s
 ## Keterangan tambahan
 
 Di setiap environtment, device, aplikasi, hingga sistem operasi, terdapat bebarapa aturan dan tipe progress indicator yang bisa saja berbeda dibandingkan dengan kaidah design yang ada. 
+{: .text-justify}
 
 
 ## Implementasi pada Payfazz
 
 PT PAYFAZZ Teknologi Nusantara atau PAYFAZZ merupakan platform layanan keuangan berbasis keagenan yang dapat membantu dan mempermudah transaksi serta pembayaran secara digital. Kehadiran kami bertujuan untuk membantu masyarakat Indonesia, khususnya bagi yang belum memiliki rekening bank (unbanked). Melalui layanan PAYFAZZ, semua pihak kini dapat melakukan transaksi keuangan dan pembayaran digital dengan mudah, cepat, nyaman, dimanapun, dan kapanpun hanya dalam satu genggaman.
+{: .text-justify}
 
 Secara user interface dan user experience, payfazz terlihat nyaman digunakan walaupun terlihat simpel. Terdapat hal yang menarik dari progress indicator dari aplikasi PAYFAZZ ini. Progress indicator diaplikasi ini digambarkan dengan seolah olah apps melakukan loading terhadap card kosong, walaupun aplikasi ini tidak memuat card yang berukuran sama. Hal ini membuat user menjadi berpikir aplikasi akan sedang melakukan load.
+{: .text-justify}
 
 Berikut adalah contoh implementasi dari progress bar di payfazz.
 
@@ -112,22 +124,23 @@ Berikut adalah contoh implementasi dari progress bar di payfazz.
 ![](/assets/2.png) 
 
 Implementasi ini memiliki banyak sisi baik ataupun sisi buruk. Sisi baiknya adalah tampilan dan prosesnya yang simple mengikuti dengan design utama dari PAYFAZZ. Pengguna pun merasa proses yang ditunggu benar benar akan load. Sisi buruknya adalah terdapat fake load, Dari aplikasi tersebut karena hasil load aplikasi tidak sesuai dengan indikator dan track yang ditampilkan.
+{: .text-justify}
 
 
 ## Backlink
 
 
-https://www.payfazz.com/
-
+- [Payfazz Web](https://www.payfazz.com/)
+- [Payfazz on Playstore](https://play.google.com/store/apps/details?id=com.payfazz.android&hl=en)
  
 
 
 ## Referensi:
 
 
-https://material.io/design/components/progress-indicators.html#linear-progress-indicators
+- [Material.io](https://material.io/design/components/progress-indicators.html)
 
-https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/en/Unit%202/52_p_material_design_cards_and_the_fab.html
+- [Google-developer](https://google-developer-training.gitbooks.io/android-developer-fundamentals-course-practicals/content/en/Unit%202/52_p_material_design_cards_and_the_fab.html)
 
-https://www.hongkiat.com/blog/beautiful-progress-bars/
+- [Beautiful Progress Bar Example](https://www.hongkiat.com/blog/beautiful-progress-bars/)
 
